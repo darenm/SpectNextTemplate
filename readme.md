@@ -8,7 +8,7 @@ This repo represents my current starter template for Spectrum Next assembly lang
 
 1. Create a GitHub repo that uses this project as a template.
 
-  This template defines a folder structure and provides scripts that will download and extract ZX Spect Next img/roms as well as tools such as CSpect, etc.
+    This template defines a folder structure and provides scripts that will download and extract ZX Spect Next img/roms as well as tools such as CSpect, etc.
 
 1. Clone the new repo locally.
 
