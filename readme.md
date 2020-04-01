@@ -23,7 +23,7 @@ This repo represents my current starter template for Spectrum Next assembly lang
     This script calls two other scripts:
 
     * Downloads and extracts the latest ZX Next image and roms
-    * Downloads CSpect, openal, sjamplus, and hdfmonkey.
+    * Downloads CSpect, openal, sjasmplus, and hdfmonkey.
   
 1. Open Visual Studio Code and install the **Z80 Macro-Assembler** - I use the problem matcher to highlight errors, etc.
 
@@ -32,7 +32,7 @@ This repo represents my current starter template for Spectrum Next assembly lang
     Source files are contained within the **{project-root}\project\src** folder. 
     The file **<project-root>\.vscode\Tasks.json** contains the following tasks:
   
-    * **Compile Assembly** - This is mapped as the default build task, so `CTRL+SHIFT+B` will invoke it and it will assemble the src files and uses the 
+    * **Compile Assembly** - This is mapped as the default build task, so `CTRL+SHIFT+B` will invoke it and it will use the sjasmplus assembler to process the src files.
     * **Update SDCard** - uses **hdfmonkey** to move the `project.nex` output file onto the CSpect img so it can be accessed from within the CSpect emulator.
 
       > **Note**: Update this task if you change the name of the .NEX file that is generated.
