@@ -2,6 +2,6 @@
 Write-Host "Download and expand the CSpect image from ZXSpectrumNEXT" -ForegroundColor Green
 Remove-Item $PSScriptRoot\*.zip 
 Remove-Item $PSScriptRoot\*.rom
-c:\windows\system32\curl -o $PSScriptRoot\cspect-next-2gb.zip http://www.zxspectrumnext.online/cspect/cspect-next-2gb.zip
+c:\windows\system32\curl -o $PSScriptRoot\cspect-next-2gb.zip https://zxspectrumnext.online/cspect/cspect-next-2gb.zip
 Expand-Archive -force $PSScriptRoot\cspect-next-2gb.zip $PSScriptRoot
 Remove-Item $PSScriptRoot\*.zip 
